@@ -1,0 +1,47 @@
+@import "./piblic.scss";
+.list{
+   padding-left: 90px;
+    width:1300px;
+    .list-Shop{
+        width:1300px;
+        margin: 0 auto;
+        height: 500px;
+        background-color: white;
+        li{
+            float: left;
+            border:1px solid white;
+            margin:2px;
+            border-radius: 5px;
+        }
+        .shopping{
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: center;
+        background-color: rgb(231,231,231);
+        .price{
+            color: gray;
+        }
+       
+        .bring{
+            color: black;
+            &:hover{
+                color: gray;
+                cursor: pointer;
+            }
+            .arr{
+                display: inline-block;
+                width: 18px;
+                height: 20px;
+                background-image: url(../img/icon.png);
+                background-position: 3px -152px;
+                margin-left: 2px;
+            }
+        }
+        img{
+            width: 158px;
+            height: 158px;
+        }
+    }
+}
+    
+}

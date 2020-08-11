@@ -1,0 +1,206 @@
+@import "./piblic.scss";
+/*轮播图*/ 
+html,
+body {
+    position: relative;
+    height: 100%;
+    background: rgb(231,231,231);
+}
+
+body {
+    background: rgb(231,231,231);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    // float: left;
+    position: absolute;
+    left: 0;
+    width: 780px;
+    height: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(231,231,231);
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+// .swiper-pagination {
+//     .swiper-pagination-clickable {
+//         .swiper-pagination-bullets{
+//             right:751px;
+//         }
+//     }
+// }
+// 详情：
+.detail-D{
+    width:200px;
+    height: 500px;
+    // background-color:pink;
+    position: fixed;
+    top: 120px;
+    left: 900px;
+/*上部分*/ 
+    i{
+        line-height: 24px;
+        color: gray;
+        font-style: normal;
+    }
+    p{
+        line-height: 24px;
+        font-size: 14px;
+        margin: auto;
+        .hert{
+            position: absolute;
+            top: -1px;
+            right: 6px;
+            width: 18px;
+            height: 20px;
+            display: inline-block;
+            background-image: url(../img/icon.png);
+            background-position: -333px -76px;
+        }
+    }
+            .nm{
+                display: block;
+                margin: 10px 0;
+            }
+/*购买部分 */ 
+    .gou-Buy{
+        width: 380px;
+        height: 130px;
+        position: relative;
+        .kuan{
+            width: 198px;
+            height: 30px;
+            line-height: 30px;
+            border:1px solid gray;
+            margin-bottom: 16px;
+            span{
+                display: inline-block;
+                line-height: 20px;
+            }
+            .Gs{
+                position: absolute;
+                right: 360px;
+                img{
+                    position: absolute;
+                    top: -1px;
+                    right: -6px;
+                    width: 23px;
+                    height: 23px;
+                    margin-top: 5px;
+                }
+            }
+            .apple{
+                position: absolute;
+                right: 262px;
+                top: 7px;
+                &:hover{
+                    color:gray;
+                    cursor: pointer;
+                }
+            }
+            .five{
+                position: absolute;
+                right: 187px;
+                top: 7px;
+                &:hover{
+                    color:gray;
+                    cursor: pointer;
+                }
+            }
+        }
+        .pre{
+            color: gray;
+            font-style: oblique;
+            margin-bottom: 5px;
+        }
+        .add{
+            display: block;
+            color:white;
+            width: 200px;
+            height: 28px;
+            text-align: center;
+            line-height: 28px;
+            background-color: black;
+        }
+    }
+/*咨询部分*/ 
+    .phone{
+        text-align: center;
+        a{
+            color:black;
+            .online{
+                width: 18px;
+                height: 20px;
+                display: inline-block;
+                // border: 2px solid blue;
+                background-image: url(../img/icon.png);
+                background-position: -293px 10px;
+            }
+            .line{
+                background-position: -332px 10px;
+            }
+        }
+    }
+/*分享和细节*/
+    .share{
+        .wei-X{
+            display: inline-block;
+            width: 18px;
+            height: 20px;
+            // border:2px solid red;
+            background-image: url(../img/icon.png);
+            background-position: -218px -76px;
+            margin-right: 12px;
+        }
+        .wei-B{
+            background-position: -260px -76px;
+        }
+        .deta{
+            background-position: 0px -151px;
+            margin-left: 95px;
+        }
+    }
+/*查找*/
+    .ser{
+        a{
+            color:gray;
+            font-size: 12px;
+            .wei-Z{
+                width: 18px;
+                height: 20px;
+                // border:1px solid red;
+                display: inline-block;
+                background-image: url(../img/icon.png);
+                background-position: -660px 9px;
+            }
+        }
+        .biao{
+            margin-left: 60px;
+        }
+    }
+   
+}

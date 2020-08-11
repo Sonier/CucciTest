@@ -1,0 +1,51 @@
+@import "./piblic.scss";
+.page{
+    width:calc(100% - 30px);
+    height: 500px;
+    background-color: pink;
+    margin: auto;
+    overflow: hidden;
+    .regis{
+        margin:  0 auto;
+        h2{
+            font-weight: normal;
+        }
+
+        i{
+            font-style: normal;
+            display: inline-block;
+            width: 80px;
+            height: 15px;
+            line-height: 50px;
+        }
+        input{
+            height: 22px;
+        }
+        #sub{
+            width: 80px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 14px;
+            margin-top: 12px;
+            text-align: center;
+            margin-left: 30px;
+            margin-right: 10px;
+            background-color: black;
+            color: white;
+            display: inline-block;
+        }
+        #go{
+            width: 80px;
+            height: 25px;
+            margin-left: 10px;
+            line-height: 25px;
+            font-size: 14px;
+            margin-top: 8px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            display: inline-block;
+        }
+    }
+    
+}

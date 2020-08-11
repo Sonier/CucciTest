@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    width: 100%;
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+body,h1,h2,h3,h4,h5,h6,hr,p,ul,ol,dl,dd,fieldset,input,option,textarea,td{
+	margin:0;
+	padding:0;
+}
+.fn{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../img/icon.png);
+}

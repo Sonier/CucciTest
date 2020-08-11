@@ -1,0 +1,84 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  width: 100%;
+  font-family: "微软雅黑"; }
+
+a {
+  text-decoration: none; }
+
+body, h1, h2, h3, h4, h5, h6, hr, p, ul, ol, dl, dd, fieldset, input, option, textarea, td {
+  margin: 0;
+  padding: 0; }
+
+.fn {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../img/icon.png); }
+
+.logg {
+  display: block;
+  position: absolute;
+  top: 120px;
+  width: calc(100% - 30px);
+  height: 500px;
+  margin: auto;
+  border: 10px solid red;
+  background-color: #e7e7e7; }
+  .logg h2 {
+    text-align: center;
+    font-weight: normal; }
+  .logg .jl {
+    position: absolute;
+    left: 654px;
+    top: 42px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/icon.png);
+    background-position: -222px 0px; }
+  .logg hr {
+    margin-top: 20px;
+    margin-bottom: -30px;
+    color: red; }
+  .logg .zhu-C {
+    display: flex;
+    padding: 60px 400px; }
+    .logg .zhu-C .log-L {
+      padding-top: 10px; }
+      .logg .zhu-C .log-L i {
+        display: inline-block;
+        width: 60px;
+        height: 20px;
+        font-style: normal; }
+      .logg .zhu-C .log-L .login {
+        text-align: center;
+        width: 180px;
+        height: 23px;
+        line-height: 23px;
+        background-color: black;
+        color: white;
+        margin-left: 54px; }
+        .logg .zhu-C .log-L .login a {
+          color: white; }
+    .logg .zhu-C .log-R {
+      width: 240px;
+      height: 150px;
+      margin-left: 54px; }
+      .logg .zhu-C .log-R p {
+        color: #504d4d;
+        line-height: 24px; }
+      .logg .zhu-C .log-R .crea {
+        color: black; }
+        .logg .zhu-C .log-R .crea .chjian {
+          text-align: center;
+          display: inline-block;
+          width: 165px;
+          height: 20px;
+          border: 1px solid #504d4d;
+          margin-top: 8px; }

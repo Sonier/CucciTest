@@ -1,0 +1,179 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  width: 100%;
+  font-family: "微软雅黑"; }
+
+a {
+  text-decoration: none; }
+
+body, h1, h2, h3, h4, h5, h6, hr, p, ul, ol, dl, dd, fieldset, input, option, textarea, td {
+  margin: 0;
+  padding: 0; }
+
+.fn {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../img/icon.png); }
+
+/*轮播图*/
+html,
+body {
+  position: relative;
+  height: 100%;
+  background: #e7e7e7; }
+
+body {
+  background: #e7e7e7;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0; }
+
+.swiper-container {
+  position: absolute;
+  left: 0;
+  width: 780px;
+  height: 780px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #e7e7e7;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.detail-D {
+  width: 200px;
+  height: 500px;
+  position: fixed;
+  top: 120px;
+  left: 900px;
+  /*上部分*/
+  /*购买部分 */
+  /*咨询部分*/
+  /*分享和细节*/
+  /*查找*/ }
+  .detail-D i {
+    line-height: 24px;
+    color: gray;
+    font-style: normal; }
+  .detail-D p {
+    line-height: 24px;
+    font-size: 14px;
+    margin: auto; }
+    .detail-D p .hert {
+      position: absolute;
+      top: -1px;
+      right: 6px;
+      width: 18px;
+      height: 20px;
+      display: inline-block;
+      background-image: url(../img/icon.png);
+      background-position: -333px -76px; }
+  .detail-D .nm {
+    display: block;
+    margin: 10px 0; }
+  .detail-D .gou-Buy {
+    width: 380px;
+    height: 130px;
+    position: relative; }
+    .detail-D .gou-Buy .kuan {
+      width: 198px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid gray;
+      margin-bottom: 16px; }
+      .detail-D .gou-Buy .kuan span {
+        display: inline-block;
+        line-height: 20px; }
+      .detail-D .gou-Buy .kuan .Gs {
+        position: absolute;
+        right: 360px; }
+        .detail-D .gou-Buy .kuan .Gs img {
+          position: absolute;
+          top: -1px;
+          right: -6px;
+          width: 23px;
+          height: 23px;
+          margin-top: 5px; }
+      .detail-D .gou-Buy .kuan .apple {
+        position: absolute;
+        right: 262px;
+        top: 7px; }
+        .detail-D .gou-Buy .kuan .apple:hover {
+          color: gray;
+          cursor: pointer; }
+      .detail-D .gou-Buy .kuan .five {
+        position: absolute;
+        right: 187px;
+        top: 7px; }
+        .detail-D .gou-Buy .kuan .five:hover {
+          color: gray;
+          cursor: pointer; }
+    .detail-D .gou-Buy .pre {
+      color: gray;
+      font-style: oblique;
+      margin-bottom: 5px; }
+    .detail-D .gou-Buy .add {
+      display: block;
+      color: white;
+      width: 200px;
+      height: 28px;
+      text-align: center;
+      line-height: 28px;
+      background-color: black; }
+  .detail-D .phone {
+    text-align: center; }
+    .detail-D .phone a {
+      color: black; }
+      .detail-D .phone a .online {
+        width: 18px;
+        height: 20px;
+        display: inline-block;
+        background-image: url(../img/icon.png);
+        background-position: -293px 10px; }
+      .detail-D .phone a .line {
+        background-position: -332px 10px; }
+  .detail-D .share .wei-X {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background-image: url(../img/icon.png);
+    background-position: -218px -76px;
+    margin-right: 12px; }
+  .detail-D .share .wei-B {
+    background-position: -260px -76px; }
+  .detail-D .share .deta {
+    background-position: 0px -151px;
+    margin-left: 95px; }
+  .detail-D .ser a {
+    color: gray;
+    font-size: 12px; }
+    .detail-D .ser a .wei-Z {
+      width: 18px;
+      height: 20px;
+      display: inline-block;
+      background-image: url(../img/icon.png);
+      background-position: -660px 9px; }
+  .detail-D .ser .biao {
+    margin-left: 60px; }

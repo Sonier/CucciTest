@@ -1,0 +1,76 @@
+@import "./piblic.scss";
+.logg{
+    display: block;
+    position: absolute;
+    top:120px;
+    width: calc(100% - 30px);
+    height: 500px;
+    margin: auto;
+    border:10px solid red;
+    background-color: rgb(231, 231, 231);
+    h2{
+        text-align: center;
+        font-weight: normal;
+    }
+    .jl{
+        position: absolute;
+        left:654px;
+        top: 42px;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-image: url(../img/icon.png);
+        background-position: -222px 0px;
+    }
+    hr{
+        margin-top: 20px;
+        margin-bottom: -30px;
+        color:red;
+    }
+    .zhu-C{
+        display: flex;
+        padding: 60px 400px;
+        .log-L{
+            padding-top: 10px;
+            i{
+            display: inline-block;
+            width: 60px;
+            height: 20px;
+            font-style: normal;
+            }
+            .login{
+                text-align: center;
+                width: 180px;
+                height: 23px;
+                line-height: 23px;
+                background-color: black;
+                color:white;
+                margin-left: 54px;
+                a{
+                    color: white;
+                }
+            }
+        }
+        .log-R{
+            width: 240px;
+            height: 150px;
+            margin-left: 54px;
+           p{
+               color: rgb(80, 77, 77);
+               line-height: 24px;
+           }
+           .crea{
+               color:black;
+               .chjian{
+                    text-align: center;
+                    display: inline-block;
+                    width: 165px;
+                    height: 20px;
+                    border:1px solid rgb(80, 77, 77);
+                    margin-top: 8px;
+                }  
+            }
+           
+        }
+    }
+}

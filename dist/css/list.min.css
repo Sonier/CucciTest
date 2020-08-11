@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  width: 100%;
+  font-family: "微软雅黑"; }
+
+a {
+  text-decoration: none; }
+
+body, h1, h2, h3, h4, h5, h6, hr, p, ul, ol, dl, dd, fieldset, input, option, textarea, td {
+  margin: 0;
+  padding: 0; }
+
+.fn {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../img/icon.png); }
+
+.list {
+  padding-left: 90px;
+  width: 1300px; }
+  .list .list-Shop {
+    width: 1300px;
+    margin: 0 auto;
+    height: 500px;
+    background-color: white; }
+    .list .list-Shop li {
+      float: left;
+      border: 1px solid white;
+      margin: 2px;
+      border-radius: 5px; }
+    .list .list-Shop .shopping {
+      margin: 0 auto;
+      font-size: 14px;
+      text-align: center;
+      background-color: #e7e7e7; }
+      .list .list-Shop .shopping .price {
+        color: gray; }
+      .list .list-Shop .shopping .bring {
+        color: black; }
+        .list .list-Shop .shopping .bring:hover {
+          color: gray;
+          cursor: pointer; }
+        .list .list-Shop .shopping .bring .arr {
+          display: inline-block;
+          width: 18px;
+          height: 20px;
+          background-image: url(../img/icon.png);
+          background-position: 3px -152px;
+          margin-left: 2px; }
+      .list .list-Shop .shopping img {
+        width: 158px;
+        height: 158px; }
